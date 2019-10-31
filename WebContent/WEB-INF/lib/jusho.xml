@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+version="2.4">
+
+<servlet>
+<servlet-name>jusho</servlet-name>
+<servlet-class>jusho</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>jusho</servlet-name>
+  <url-pattern>/info.searchman/snk</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>edt</servlet-name>
+<servlet-class>edt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>edt</servlet-name>
+  <url-pattern>/info.searchman/edt</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>dlt</servlet-name>
+<servlet-class>dlt</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>dlt</servlet-name>
+  <url-pattern>/info.searchman/dlt</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>search</servlet-name>
+<servlet-class>search</servlet-class>
+</servlet>
+
+<servlet-mapping>
+  <servlet-name>search</servlet-name>
+  <url-pattern>/info.searchman/search</url-pattern>
+</servlet-mapping>
+
+</web-app>
